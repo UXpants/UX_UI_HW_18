@@ -1,0 +1,270 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;    
+}
+h4 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;    
+}
+h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;        
+}
+#navigation {
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #072448;
+    height: 80px;
+    border-bottom: 2px solid #54D2D2;
+}
+#navMenu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 22px;
+}
+#navMenu p {
+    color: #579AEF;
+    padding-right: 48px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+#navigation img {
+    display: flex;
+    align-items: flex-start;
+    width: 183px;
+    height: 48px;
+    margin-left: 70px;
+}
+.heroImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 512px;
+    margin: 0px 5%;
+}
+.content {
+    display: flex;
+    width: 75%;
+}
+.aboutMePhoto {
+    display: flex;
+    align-items: center;
+    z-index: 6;
+}
+.aboutMePhoto img {
+    width: 100%;
+}
+.aboutCard {
+    width: 75%;
+    background: #ECF3FB;
+    border-radius: 10px;
+    padding: 48px 18px 48px 85px;
+    margin-left: -85px;
+}
+.aboutCard h2 {
+    color: #072448;
+    margin: 0 auto;
+}
+.aboutCard p {
+    margin-bottom: 24px;
+    color: #072448;
+}
+button {
+    width: 222px;
+    height: 48px;
+    background: #54D2D2;
+    box-shadow: 0px 6px 14px rgba(7, 36, 72, 0.3);
+    border-radius: 10px;
+    border: 1px solid #54D2D2;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #072448;
+}
+footer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #072448;
+    height: 80px;
+    border-top: 2px solid #54D2D2;
+}
+#footerMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 70px;
+}
+#footerMenu p {
+    color: #579AEF;
+    padding-right: 48px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.mySkills {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.myWork {
+    background-color: #F7F9F9;
+    padding: 50px 70px 50px 70px;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 30px;
+}
+.flexContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33%;
+    background-color: #ECF3FB;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    color: #0C4080;
+}
+.flexContainer img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.flexContainer div ul {
+    margin: 0;
+    text-align: left;
+    padding-left: 24px;
+}
+.workGrid {
+    width: 100%;
+    gap: 20px;
+    color: #0C4080;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: 
+    "proj1Image proj1"
+    "proj2Image proj2"
+    "proj3Image proj3";
+}
+.workGridArea h4 {
+    display: grid;
+    margin: auto;
+}
+#proj1Image {
+    grid-area: proj1Image;
+    width: 100%;
+    height: 100%;
+}
+#proj1 {
+    grid-area: proj1;
+    background-color: #ECF3FB;
+    border-radius: 10px;
+    text-align: left;
+    padding: 24px;
+}
+#proj2Image {
+    grid-area: proj2Image;
+    width: 75%;
+    height: 75%;
+}
+#proj2 {
+    grid-area: proj2;
+    background: #ECF3FB;
+    border-radius: 10px;
+    text-align: left;
+    padding: 24px;
+}
+#proj3Image {
+    grid-area: proj3Image;
+    width: 75%;
+    height: 75%;
+}
+#proj3 {
+    grid-area: proj3;
+    background: #ECF3FB;
+    border-radius: 10px;
+    text-align: left;
+    padding: 24px;
+}
+.myWork h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+.workGrid {
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "proj1Image"
+    "proj1"
+    "proj2Image"
+    "proj2"
+    "proj3Image"
+    "proj3"
+    ;
+}
+.flexContainer {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 5%;
+}
+.workGridArea {
+    width: 100%;
+    margin: 0px 5%;
+    gap: 50%;
+}
+.heroImg {
+    margin: 0px 5%;
+    flex-direction: column;
+    width: 100%;
+}
+.content {
+    flex-direction: column;
+    margin: 0px 5%;
+    width: 50%;
+}
+}
